@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-md-4" id="sidebar">
                     <div class="row">
-                        <div class="col subscribe-box ml-md-2">
+                        <div class="col subscribe-box ml-md-1">
                             <h6>Get best deals in your email box</h6>
                             <p>Complete the form below, and we'll send you the best deals.</p>
                             <form class="form-inline" id="subsciption-form">
