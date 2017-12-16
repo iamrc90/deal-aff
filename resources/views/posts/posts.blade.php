@@ -42,8 +42,8 @@
                             }else{
                                var play = "<a href='javascript:void(0)' data-action='unpublish' data-status='"+full.status+"' class=' btn btn-warning btn-sm updatepoststatus' data-postid='" + full.id + "'><span class='glyphicon glyphicon-pause'></span></a>";
                             }
-                            var view = "<a href='"+baseUrl+"posts/view/"+data+"' target='_blank' data-action='view' class=' btn btn-primary btn-sm' data-postid='" + data + "'><span class='glyphicon glyphicon-eye-open'></span></a>";
-                            var edit = "<a href='"+baseUrl+"posts/edit/"+data+"' data-action='edit' class=' btn btn-default btn-sm' data-postid='" + data + "'><span class='glyphicon glyphicon-pencil'></span></a>";
+                            var view = "<a href='"+baseUrl+"/admin/posts/view/"+data+"' target='_blank' data-action='view' class=' btn btn-primary btn-sm' data-postid='" + data + "'><span class='glyphicon glyphicon-eye-open'></span></a>";
+                            var edit = "<a href='"+baseUrl+"/admin/posts/edit/"+data+"' data-action='edit' class=' btn btn-default btn-sm' data-postid='" + data + "'><span class='glyphicon glyphicon-pencil'></span></a>";
                             var del = "<a href='javascript:void(0)' data-action='delete' class=' btn btn-danger btn-sm delete-post' data-postid='" + data + "'><span class='glyphicon glyphicon-remove'></span></a>";
                             return play + ' ' + view + ' ' + edit + ' ' + del ;
                         }

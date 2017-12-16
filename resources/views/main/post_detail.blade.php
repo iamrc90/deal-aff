@@ -26,7 +26,7 @@
                                     {!! $post->body !!}
                                 </div>
                                 <div class="posted-date">
-                                    <abbr title="{{$post->updated_at}}">{{$post->formattedDateString}}</abbr>
+                                    <abbr title="{{$post->created_at}}">{{$post->formattedDateString}}</abbr>
                                 </div>
                             </div>
                         </div>
